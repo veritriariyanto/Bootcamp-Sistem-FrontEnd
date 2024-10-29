@@ -4,6 +4,7 @@ export default {
   theme: {
     fontFamily: {
       sans: ["Sen"],
+      xinter: ["Inter"],
     },
     fontSize: {
       xs: "10px",

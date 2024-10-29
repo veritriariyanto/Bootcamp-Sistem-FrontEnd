@@ -8,10 +8,10 @@
           alt="logo"
           class="w-24 sm:w-32"
         />
-        <div class="flex space-x-4 mt-4 sm:mt-0">
-          <a href="#" class="hover:underline">Home</a>
-          <a href="#" class="hover:underline">Blog</a>
-          <a href="#" class="hover:underline">About us</a>
+        <div class="flex space-x-4 mt-4 sm:mt-0 font-xinter">
+          <a href="/" class="hover:underline">Home</a>
+          <a href="/blog" class="hover:underline">Blog</a>
+          <a href="/about" class="hover:underline">About us</a>
           <a href="#" class="hover:underline">Contact us</a>
           <a href="#" class="hover:underline">Privacy Policy</a>
         </div>
@@ -32,11 +32,11 @@
         >
           <input
             type="email"
-            class="rounded-none py-2 px-3 w-full md:flex-1"
+            class="rounded-none py-2 px-3 w-full md:flex-1 font-xinter"
             placeholder="Enter Your Email"
           />
           <button
-            class="bg-x-blue hover:bg-x-blue text-x-light font-bold py-2 px-4 rounded-none w-full md:w-auto"
+            class="py-4 px-12 bg-x-blue hover:bg-x-blue text-x-light font-bold rounded-none w-full md:w-auto"
           >
             Subscribe
           </button>
@@ -45,13 +45,10 @@
 
       <!-- Footer Section -->
       <div
-        class="flex flex-wrap justify-between items-center mt-8 space-y-4 sm:space-y-0 text-center sm:text-left"
+        class="flex flex-wrap justify-between items-center mt-8 space-y-4 sm:space-y-0 text-center sm:text-left font-xinter"
       >
         <p class="text-base w-full sm:w-auto">
-          Finstreet <br />
-          118 2561 Fintown
-        </p>
-        <p class="text-base w-full sm:w-auto">
+          Finstreet 118 2561 Fintown <br />
           Hello@finsweet.com 020 7993 2905
         </p>
         <div class="flex justify-center space-x-4 w-full sm:w-auto">
