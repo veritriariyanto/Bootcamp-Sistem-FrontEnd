@@ -15,17 +15,17 @@
 </template>
 
 <script>
-import HeaderContent from "../components/HeaderContent.vue";
-import HomeHero from "../components/Home/HomeHero.vue";
-import FeaturedPost from "../components/Home/FeaturedPost.vue";
-import AboutUs from "../components/Home/AboutUs.vue";
-import Category from "../components/Home/Category.vue";
-import SpecialPost from "../components/Home/SpecialPost.vue";
-import ListOfAuthor from "../components/Home/ListOfAuthor.vue";
-import Logo from "../components/Home/Logo.vue";
-import Testimonials from "../components/Home/testimonials.vue";
-import Join from "../components/Home/Join.vue";
-import FooterContent from "../components/FooterContent.vue";
+import HeaderContent from "/src/components/HeaderContent.vue";
+import HomeHero from "/src/components/Home/HomeHero.vue";
+import FeaturedPost from "/src/components/Home/FeaturedPost.vue";
+import AboutUs from "/src/components/Home/AboutUs.vue";
+import Category from "/src/components/Home/Category.vue";
+import SpecialPost from "/src/components/Home/SpecialPost.vue";
+import ListOfAuthor from "/src/components/Home/ListOfAuthor.vue";
+import Logo from "/src/components/Home/Logo.vue";
+import Testimonials from "/src/components/Home/testimonials.vue";
+import Join from "/src/components/Home/Join.vue";
+import FooterContent from "/src/components/FooterContent.vue";
 
 export default {
   name: "Home",

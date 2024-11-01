@@ -10,12 +10,12 @@
 </template>
 
 <script>
-import HeaderContent from "../components/HeaderContent.vue";
-import Join from "../components/Home/Join.vue";
-import FooterContent from "../components/FooterContent.vue";
-import HeaderAbout from "../components/About/HeaderAbout.vue";
-import ListOfAuthor from "../components/Home/ListOfAuthor.vue";
-import Author from "../components/About/Author.vue";
+import HeaderContent from "/src/components/HeaderContent.vue";
+import Join from "/src/components/Home/Join.vue";
+import FooterContent from "/src/components/FooterContent.vue";
+import HeaderAbout from "/src/components/About/HeaderAbout.vue";
+import ListOfAuthor from "/src/components/Home/ListOfAuthor.vue";
+import Author from "/src/components/About/Author.vue";
 
 export default {
   name: "Home",

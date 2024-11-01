@@ -10,12 +10,12 @@
 </template>
 
 <script>
-import HeaderContent from "../components/HeaderContent.vue";
-import Join from "../components/Home/Join.vue";
-import FooterContent from "../components/FooterContent.vue";
-import BlogHeader from "../components/Blog/BlogHeader.vue";
-import AllBlog from "../components/Blog/AllBlog.vue";
-import Category from "../components/Home/Category.vue";
+import HeaderContent from "/src/components/HeaderContent.vue";
+import Join from "/src/components/Home/Join.vue";
+import FooterContent from "/src/components/FooterContent.vue";
+import BlogHeader from "/src/components/Blog/BlogHeader.vue";
+import AllBlog from "/src/components/Blog/AllBlog.vue";
+import Category from "/src/components/Home/Category.vue";
 
 export default {
   name: "Home",
