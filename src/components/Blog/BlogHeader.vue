@@ -1,13 +1,13 @@
 <template>
   <div
-    class="h-auto lg:h-[519px] flex flex-col lg:flex-row bg-x-lavender p-4 lg:p-8 text-x-black shadow-lg space-y-4 lg:space-y-0 lg:space-x-8"
+    class="font-xinter h-auto lg:h-[519px] flex flex-col lg:flex-row bg-x-lavender p-4 lg:p-8 text-x-black shadow-lg space-y-4 lg:space-y-0 lg:space-x-8"
   >
     <!-- Text Section -->
     <div class="flex-1 mt-6 lg:mt-12 text-center lg:text-left">
       <h2 class="text-sm lg:text-base font-semibold uppercase">
         Featured Post
       </h2>
-      <h1 class="text-2xl lg:text-4xl font-bold my-2">
+      <h1 class="font-sans text-2xl lg:text-4xl font-bold my-2">
         Step-by-step guide to choosing great <br class="hidden lg:block" />
         font pairs
       </h1>
@@ -20,7 +20,9 @@
         nulla pariatur. Excepteur sint occaecat cupidatat non proident.
       </p>
       <div class="flex justify-center lg:justify-start">
-        <button class="btn bg-x-blue rounded-none border-none text-x-light">
+        <button
+          class="btn py-4 px-12 bg-x-blue rounded-none border-none text-x-light"
+        >
           Read More >
         </button>
       </div>

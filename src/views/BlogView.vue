@@ -3,7 +3,7 @@
     <HeaderContent />
     <BlogHeader />
     <AllBlog />
-    <Categories />
+    <Category />
     <Join />
     <FooterContent />
   </div>
@@ -15,7 +15,7 @@ import Join from "../components/Home/Join.vue";
 import FooterContent from "../components/FooterContent.vue";
 import BlogHeader from "../components/Blog/BlogHeader.vue";
 import AllBlog from "../components/Blog/AllBlog.vue";
-import Categories from "../components/Blog/Categories.vue";
+import Category from "../components/Home/Category.vue";
 
 export default {
   name: "Home",
@@ -23,7 +23,7 @@ export default {
     HeaderContent,
     BlogHeader,
     AllBlog,
-    Categories,
+    Category,
     Join,
     FooterContent,
   },

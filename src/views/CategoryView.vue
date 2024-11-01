@@ -1,9 +1,6 @@
 <template>
   <div class="bg-x-light">
     <HeaderContent />
-    <HeaderAbout />
-    <ListOfAuthor />
-    <Author />
     <Join />
     <FooterContent />
   </div>
@@ -13,18 +10,11 @@
 import HeaderContent from "../components/HeaderContent.vue";
 import Join from "../components/Home/Join.vue";
 import FooterContent from "../components/FooterContent.vue";
-import HeaderAbout from "../components/About/HeaderAbout.vue";
-import ListOfAuthor from "../components/Home/ListOfAuthor.vue";
-import Author from "../components/About/Author.vue";
 
 export default {
   name: "Home",
   components: {
     HeaderContent,
-    HeaderAbout,
-    ListOfAuthor,
-    Author,
-    Join,
     FooterContent,
   },
 };

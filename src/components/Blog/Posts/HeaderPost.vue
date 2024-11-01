@@ -8,13 +8,14 @@
         class="w-10 h-10 rounded-full"
       />
 
-      <div>
-        <!-- Author and Date -->
+      <div class="flex flex-col justify-start">
         <p class="text-x-yellow font-semibold text-sm">Andrew Jonson</p>
-        <p class="text-gray-500 text-xs">Posted on 27th January 2022</p>
+        <p class="text-gray-500 text-xs font-xinter">
+          Posted on 27th January 2022
+        </p>
 
         <!-- Post Title -->
-        <h1 class="text-2xl font-bold text-gray-800 my-2">
+        <h1 class="text-2xl font-bold my-2">
           Step-by-step guide to choosing great font pairs
         </h1>
 

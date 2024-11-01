@@ -1,6 +1,6 @@
 <template>
-  <div class="container mx-auto text-x-mediumgrey mt-10 w-[843px]">
-    <h1 class="title text-4xl text-x-black font-bold mb-4">
+  <div class="container mx-auto text-x-mediumgrey mt-10 w-[843px] font-xinter">
+    <h1 class="title text-4xl text-x-black font-bold mb-4 font-sans">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
     </h1>
     <p class="text-base mb-6">
@@ -11,7 +11,7 @@
       montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue
       quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.
     </p>
-    <h1 class="title text-4xl text-x-black font-bold mb-4">
+    <h1 class="title text-4xl text-x-black font-bold mb-4 font-sans">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
     </h1>
     <p class="paragraph mb-6">
@@ -31,7 +31,7 @@
       quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.
     </p>
     <ul
-      class="p-0 mb-6 text-x-darkgrey font-bold list-inside list-disc text-2xl"
+      class="p-0 mb-6 text-x-darkgrey font-bold list-inside list-disc text-2xl font-sans"
     >
       <li class="item py-2">Lorem ipsum dolor sit amet</li>
       <li class="item py-2">Non blandit massa enim nec scelerisque</li>
@@ -45,7 +45,7 @@
       montes. Ridiculus mus mauris vitae ultricies leo. Neque egestas congue
       quisque egestas diam. Risus in hendrerit gravida rutrum quisque non.
     </p>
-    <h1 class="title text-4xl text-x-black font-bold mb-4">
+    <h1 class="title text-4xl text-x-black font-bold mb-4 font-sans">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
     </h1>
     <p class="paragraph mb-6">

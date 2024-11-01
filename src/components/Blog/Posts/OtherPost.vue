@@ -6,18 +6,19 @@
         <figure>
           <img
             src="\src\assets\images\Blog\allpost\img1.png"
-            alt="Case Study Image"
+            alt="Case Study Image h-[318px]"
           />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">
-            A UX Case Study Creating a Studious Environment for Students
-          </h2>
-          <p>
+          <p class="text-sm font-xinter">
             By <span class="text-x-yellow font-bold">John Doe</span> | Aug 23,
             2021
           </p>
-          <p>
+          <h2 class="card-title text-3xl mb-3">
+            A UX Case Study Creating a Studious Environment for Students
+          </h2>
+
+          <p class="font-xinter text-base">
             Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
             cupidatat non proident.
@@ -32,14 +33,15 @@
           />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">
-            A UX Case Study Creating a Studious Environment for Students
-          </h2>
-          <p>
+          <p class="font-xinter text-sm">
             By <span class="text-x-yellow font-bold">John Doe</span> | Aug 23,
             2021
           </p>
-          <p>
+          <h2 class="card-title text-3xl mb-3">
+            A UX Case Study Creating a Studious Environment for Students
+          </h2>
+
+          <p class="font-xinter text-base">
             Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
             cupidatat non proident.
@@ -54,14 +56,14 @@
           />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">
-            A UX Case Study Creating a Studious Environment for Students
-          </h2>
-          <p>
+          <p class="font-xinter text-sm">
             By <span class="text-x-yellow font-bold">John Doe</span> | Aug 23,
             2021
           </p>
-          <p>
+          <h2 class="card-title text-3xl mb-3">
+            A UX Case Study Creating a Studious Environment for Students
+          </h2>
+          <p class="font-xinter text-base">
             Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
             cupidatat non proident.
