@@ -13,7 +13,9 @@
                 class="w-12 h-12 bg-x-light roundedd"
               />
             </div>
-            <h3 class="text-3xl font-semibold">Business</h3>
+            <h3 class="text-3xl font-semibold">
+              <router-link to="/category">Business</router-link>
+            </h3>
             <p
               class="text-base font-xinter text-x-mediumgrey group-hover:text-x-light"
             >
@@ -32,7 +34,9 @@
                 class="w-12 h-12 bg-x-light rounded"
               />
             </div>
-            <h3 class="text-3xl font-semibold">Startup</h3>
+            <h3 class="text-3xl font-semibold">
+              <a href="/category">Startup</a>
+            </h3>
             <p
               class="text-base font-xinter text-x-mediumgrey group-hover:text-x-light"
             >
@@ -51,7 +55,9 @@
                 class="w-12 h-12 bg-x-light rounded"
               />
             </div>
-            <h3 class="text-3xl font-semibold">Economy</h3>
+            <h3 class="text-3xl font-semibold">
+              <router-link to="category"></router-link>Economy
+            </h3>
             <p
               class="text-base font-xinter text-x-mediumgrey group-hover:text-x-light"
             >
@@ -70,7 +76,9 @@
                 class="w-12 h-12 bg-x-light rounded"
               />
             </div>
-            <h3 class="text-3xl font-semibold">Technology</h3>
+            <h3 class="text-3xl font-semibold">
+              <router-link to="/category">Technology</router-link>
+            </h3>
             <p
               class="text-base font-xinter text-x-mediumgrey group-hover:text-x-light"
             >

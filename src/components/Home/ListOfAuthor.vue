@@ -13,7 +13,9 @@
           class="w-32 h-32 rounded-full mb-4"
           src="/src/assets/images/Home/AuthorProfil/profil1.png"
         />
-        <h3 class="text-2xl font-semibold mb-1">Floyd Miles</h3>
+        <h3 class="text-2xl font-semibold mb-1">
+          <router-link to="/author">Floyd Miles</router-link>
+        </h3>
         <p class="text-sm text-x-mediumgrey mb-4">Content Writer @Company</p>
         <div class="mt-auto flex justify-center space-x-3 mb-5">
           <a href="#"
@@ -52,7 +54,9 @@
           class="w-32 h-32 rounded-full mb-4"
           src="/src/assets/images/Home/AuthorProfil/profil2.png"
         />
-        <h3 class="text-2xl font-semibold mb-1">Dianne Russell</h3>
+        <h3 class="text-2xl font-semibold mb-1">
+          <router-link to="/author">Dianne Russell</router-link>
+        </h3>
         <p class="text-sm text-x-mediumgrey mb-4">Content Writer @Company</p>
         <div class="mt-auto flex justify-center space-x-3 mb-5">
           <a href="#"
@@ -91,7 +95,9 @@
           class="w-32 h-32 rounded-full mb-4"
           src="/src/assets/images/Home/AuthorProfil/profil3.png"
         />
-        <h3 class="text-2xl font-semibold mb-1">Jenny Wilson</h3>
+        <h3 class="text-2xl font-semibold mb-1">
+          <router-link to="/author">Jenny Wilson</router-link>
+        </h3>
         <p class="text-sm text-x-mediumgrey mb-4">Content Writer @Company</p>
         <div class="mt-auto flex justify-center space-x-3 mb-5">
           <a href="#"
@@ -130,7 +136,9 @@
           class="w-32 h-32 rounded-full mb-4"
           src="/src/assets/images/Home/AuthorProfil/profil4.png"
         />
-        <h3 class="text-2xl font-semibold mb-1">Leslie Alexander</h3>
+        <h3 class="text-2xl font-semibold mb-1">
+          <router-link to="/author">Leslie Alexander</router-link>
+        </h3>
         <p class="text-sm text-x-mediumgrey mb-4">Content Writer @Company</p>
         <div class="mt-auto flex justify-center space-x-3 mb-5">
           <a href="#"

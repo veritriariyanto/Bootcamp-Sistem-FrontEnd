@@ -35,7 +35,7 @@
           <button
             class="py-4 px-12 btn text-x-light bg-x-blue font-bold rounded-none border-none text-base1"
           >
-            Read More >
+            <router-link to="/posts"> Read More ></router-link>
           </button>
         </div>
       </div>

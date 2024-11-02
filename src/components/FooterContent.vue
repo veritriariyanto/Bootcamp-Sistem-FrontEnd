@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import { RouterLink } from "vue-router";
+</script>
+
 <template>
   <div class="bg-x-black text-x-light">
     <div class="container mx-auto px-4 py-8">
@@ -9,12 +13,16 @@
           class="w-24 sm:w-32"
         />
         <div class="flex space-x-4 mt-4 sm:mt-0 font-xinter">
-          <a router-link to="/" class="hover:underline">Home</a>
-          <a router-link to="/blog" class="hover:underline">Blog</a>
-          <a router-link to="/about" class="hover:underline">About us</a>
-          <a router-link to="/contact" class="hover:underline">Contact us</a>
-          <a router-link to="/privacypolicy" class="hover:underline"
-            >Privacy Policy</a
+          <router-link to="/" class="hover:underline">Home</router-link>
+          <router-link to="/blog" class="hover:underline">Blog</router-link>
+          <router-link to="/about" class="hover:underline"
+            >About us</router-link
+          >
+          <router-link to="/contact" class="hover:underline"
+            >Contact us</router-link
+          >
+          <router-link to="/privacypolicy" class="hover:underline"
+            >Privacy Policy</router-link
           >
         </div>
       </div>
