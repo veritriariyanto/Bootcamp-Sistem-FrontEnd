@@ -36,10 +36,10 @@
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1 text-x-light text-base">
-          <li><a router-link="/">Home</a></li>
-          <li><a router-link="/blog">Blog</a></li>
-          <li><a router-linkf="/about">About Us</a></li>
-          <li><a router-link="/contact">Contact Us</a></li>
+          <li><a router-link to="/">Home</a></li>
+          <li><a router-link to="/blog">Blog</a></li>
+          <li><a router-link to="/about">About Us</a></li>
+          <li><a router-link to="/contact">Contact Us</a></li>
         </ul>
       </div>
       <div class="navbar-end font-sans">
