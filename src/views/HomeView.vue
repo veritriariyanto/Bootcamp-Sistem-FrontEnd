@@ -28,7 +28,7 @@ import Category from "/src/components/Home/Category.vue";
 import SpecialPost from "/src/components/Home/SpecialPost.vue";
 import ListOfAuthor from "/src/components/Home/ListOfAuthor.vue";
 import Logo from "/src/components/Home/Logo.vue";
-import Testimonials from "/src/components/Home/testimonials.vue";
+import Testimonials from "/src/components/Home/Testimonials.vue";
 import Join from "/src/components/Home/Join.vue";
 import FooterContent from "/src/components/FooterContent.vue";
 
