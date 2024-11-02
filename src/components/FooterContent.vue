@@ -9,11 +9,13 @@
           class="w-24 sm:w-32"
         />
         <div class="flex space-x-4 mt-4 sm:mt-0 font-xinter">
-          <a href="/" class="hover:underline">Home</a>
-          <a href="/blog" class="hover:underline">Blog</a>
-          <a href="/about" class="hover:underline">About us</a>
-          <a href="/contact" class="hover:underline">Contact us</a>
-          <a href="/privacypolicy" class="hover:underline">Privacy Policy</a>
+          <a router-link to="/" class="hover:underline">Home</a>
+          <a router-link to="/blog" class="hover:underline">Blog</a>
+          <a router-link to="/about" class="hover:underline">About us</a>
+          <a router-link to="/contact" class="hover:underline">Contact us</a>
+          <a router-link to="/privacypolicy" class="hover:underline"
+            >Privacy Policy</a
+          >
         </div>
       </div>
 
