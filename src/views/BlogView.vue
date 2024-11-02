@@ -18,7 +18,7 @@ import AllBlog from "/src/components/Blog/AllBlog.vue";
 import Category from "/src/components/Home/Category.vue";
 
 export default {
-  name: "Home",
+  name: "Blog",
   components: {
     HeaderContent,
     BlogHeader,

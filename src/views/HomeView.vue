@@ -4,6 +4,11 @@
     <HomeHero />
     <FeaturedPost />
     <AboutUs />
+    <div>
+      <h2 class="text-4xl text-x-black text-center font-bold pt-9">
+        Choose A Catagory
+      </h2>
+    </div>
     <Category />
     <SpecialPost />
     <ListOfAuthor />

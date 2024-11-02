@@ -12,8 +12,8 @@
           <a href="/" class="hover:underline">Home</a>
           <a href="/blog" class="hover:underline">Blog</a>
           <a href="/about" class="hover:underline">About us</a>
-          <a href="#" class="hover:underline">Contact us</a>
-          <a href="#" class="hover:underline">Privacy Policy</a>
+          <a href="/contact" class="hover:underline">Contact us</a>
+          <a href="/privacypolicy" class="hover:underline">Privacy Policy</a>
         </div>
       </div>
 
@@ -54,27 +54,27 @@
         <div class="flex justify-center space-x-4 w-full sm:w-auto">
           <a href="#"
             ><img
-              src="/src/assets/images/Home/Icon/facebook.png"
+              src="\src\assets\images\Home\Icon\facebook.svg"
               alt="facebook"
-              class="w-6 h-6 bg-x-darkgrey"
+              class="w-6 h-6"
           /></a>
           <a href="#"
             ><img
-              src="/src/assets/images/Home/Icon/twiter.png"
+              src="\src\assets\images\Home\Icon\twiter.svg"
               alt="twitter"
-              class="w-6 h-6 bg-x-darkgrey"
+              class="w-6 h-6"
           /></a>
           <a href="#"
             ><img
-              src="/src/assets/images/Home/Icon/instagram.png"
+              src="\src\assets\images\Home\Icon\instagram.svg"
               alt="instagram"
-              class="w-6 h-6 bg-x-darkgrey"
+              class="w-6 h-6"
           /></a>
           <a href="#"
             ><img
-              src="/src/assets/images/Home/Icon/linkedin.png"
+              src="\src\assets\images\Home\Icon\linkedin.svg"
               alt="linkedin"
-              class="w-6 h-6 bg-x-darkgrey"
+              class="w-6 h-6"
           /></a>
         </div>
       </div>

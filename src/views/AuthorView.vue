@@ -1,8 +1,8 @@
 <template>
   <div class="bg-x-light">
     <HeaderContent />
-    <CategorySection />
-    <MainCategory />
+    <AuthorHeader />
+    <MyBlog />
     <FooterContent />
   </div>
 </template>
@@ -10,14 +10,15 @@
 <script>
 import HeaderContent from "/src/components/HeaderContent.vue";
 import FooterContent from "/src/components/FooterContent.vue";
-import CategorySection from "/src/components/Category/CategorySection.vue";
-import MainCategory from "/src/components/Category/MainCategory.vue";
+import AuthorHeader from "/src/components/Author/AuthorHeader.vue";
+import MyBlog from "/src/components/Author/MyBlog.vue";
+
 export default {
-  name: "Category",
+  name: "Author",
   components: {
     HeaderContent,
-    CategorySection,
-    MainCategory,
+    AuthorHeader,
+    MyBlog,
     FooterContent,
   },
 };

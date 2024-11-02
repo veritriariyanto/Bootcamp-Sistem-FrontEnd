@@ -18,7 +18,7 @@ import BlogBody from "/src/components/Blog/Posts/BlogBody.vue";
 import OtherPost from "/src/components/Blog/Posts/OtherPost.vue";
 
 export default {
-  name: "Home",
+  name: "BlogPost",
   components: {
     HeaderContent,
     HeaderPost,

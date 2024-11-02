@@ -18,7 +18,7 @@ import ListOfAuthor from "/src/components/Home/ListOfAuthor.vue";
 import Author from "/src/components/About/Author.vue";
 
 export default {
-  name: "Home",
+  name: "About",
   components: {
     HeaderContent,
     HeaderAbout,
