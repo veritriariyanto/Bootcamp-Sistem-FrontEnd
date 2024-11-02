@@ -22,7 +22,7 @@
           </div>
           <ul
             tabindex="0"
-            class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            class="menu menu-lg dropdown-content rounded-box z-[1] mt-3 w-52 p-2 bg-x-light text-x-black shadow"
           >
             <li><router-link to="/">Home</router-link></li>
             <li><router-link to="/blog">Blog</router-link></li>
@@ -36,10 +36,10 @@
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1 text-x-light text-base">
-          <li><router-link to="/">Home</router-link></li>
-          <li><router-link to="/blog">Blog</router-link></li>
-          <li><router-link to="/about">About Us</router-link></li>
-          <li><router-link to="/contact">Contact Us</router-link></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/contact">Contact Us</a></li>
         </ul>
       </div>
       <div class="navbar-end font-sans">

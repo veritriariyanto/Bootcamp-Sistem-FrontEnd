@@ -1,7 +1,6 @@
 <template>
   <div class="container mx-auto flex justify-center items-center py-10">
     <div class="p-4 flex items-start space-x-3 max-w-md text-x-black">
-      <!-- Author Avatar -->
       <img
         src="\src\assets\images\Blog\post\profil.png"
         alt="Author Avatar"
@@ -26,7 +25,7 @@
             alt="Startup Icon"
             class="w-5 h-5"
           />
-          <span class="text-blue-500 font-semibold text-sm">Startup</span>
+          <span class="font-semibold text-sm">Startup</span>
         </div>
       </div>
     </div>
