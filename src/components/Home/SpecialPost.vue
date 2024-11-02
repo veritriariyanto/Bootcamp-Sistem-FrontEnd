@@ -18,10 +18,10 @@
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
       </p>
-      <a
-        href=""
+      <router-link
+        to="/posts"
         class="py-4 px-12 btn border-none bg-x-blue text-x-light rounded-none text-base1"
-        >Discover our story ></a
+        >Discover our story ></router-link
       >
     </div>
   </div>

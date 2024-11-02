@@ -12,7 +12,9 @@
           class="w-32 h-32 rounded-full mb-4"
           src="/src/assets/images/Home/AuthorProfil/profil5.png"
         />
-        <h3 class="text-2xl font-semibold mb-1">Guy Hawkins</h3>
+        <h3 class="text-2xl font-semibold mb-1">
+          <router-link to="/author">Guy Hawkins</router-link>
+        </h3>
         <p class="text-sm text-x-mediumgrey mb-4">Content Writer @Company</p>
         <div class="mt-auto flex justify-center space-x-3 mb-5">
           <a href="#"
@@ -51,7 +53,9 @@
           class="w-32 h-32 rounded-full mb-4"
           src="/src/assets/images/Home/AuthorProfil/profil6.png"
         />
-        <h3 class="text-2xl font-semibold mb-1">Eleanor Pena</h3>
+        <h3 class="text-2xl font-semibold mb-1">
+          <router-link to="/author">Eleanor Pena</router-link>
+        </h3>
         <p class="text-sm text-x-mediumgrey mb-4">Content Writer @Company</p>
         <div class="mt-auto flex justify-center space-x-3 mb-5">
           <a href="#"
@@ -90,7 +94,9 @@
           class="w-32 h-32 rounded-full mb-4"
           src="/src/assets/images/Home/AuthorProfil/profil7.png"
         />
-        <h3 class="text-2xl font-semibold mb-1">Robert Fox</h3>
+        <h3 class="text-2xl font-semibold mb-1">
+          <router-link to="/author">Robert Fox</router-link>
+        </h3>
         <p class="text-sm text-x-mediumgrey mb-4">Content Writer @Company</p>
         <div class="mt-auto flex justify-center space-x-3 mb-5">
           <a href="#"
@@ -129,7 +135,9 @@
           class="w-32 h-32 rounded-full mb-4"
           src="/src/assets/images/Home/AuthorProfil/profil8.png"
         />
-        <h3 class="text-2xl font-semibold mb-1">Jacob Jones</h3>
+        <h3 class="text-2xl font-semibold mb-1">
+          <router-link to="/author">Jacob Jones</router-link>
+        </h3>
         <p class="text-sm text-x-mediumgrey mb-4">Content Writer @Company</p>
         <div class="mt-auto flex justify-center space-x-3 mb-5">
           <a href="#"

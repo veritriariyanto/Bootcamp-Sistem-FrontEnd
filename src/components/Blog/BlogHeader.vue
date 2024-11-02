@@ -23,7 +23,7 @@
         <button
           class="btn py-4 px-12 bg-x-blue rounded-none border-none text-x-light"
         >
-          Read More >
+          <router-link to="/posts">Read More ></router-link>
         </button>
       </div>
     </div>

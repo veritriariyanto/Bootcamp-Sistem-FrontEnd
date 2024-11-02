@@ -12,7 +12,7 @@
         <button
           class="btn py-4 px-12 bg-x-blue text-x-light border-none rounded-none"
         >
-          Join Now
+          <router-link to="/contact">Join Now</router-link>
         </button>
       </div>
     </div>

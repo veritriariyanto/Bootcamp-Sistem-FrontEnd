@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from "vue-router";
 const Home = () => import("../views/HomeView.vue");
 const Blog = () => import("../views/BlogView.vue");
 const BlogPost = () => import("../views/BlogPostView.vue");
-
 const About = () => import("../views/AboutView.vue");
 const Category = () => import("../views/CategoryView.vue");
 const Author = () => import("../views/AuthorView.vue");
@@ -52,6 +51,14 @@ const router = createRouter({
       component: PrivacyPolicy,
     },
   ],
+
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition;
+    } else {
+      return { top: 0 };
+    }
+  },
 });
 
 export default router;

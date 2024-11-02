@@ -56,7 +56,7 @@
               />
             </div>
             <h3 class="text-3xl font-semibold">
-              <router-link to="category"></router-link>Economy
+              <router-link to="category">Economy</router-link>
             </h3>
             <p
               class="text-base font-xinter text-x-mediumgrey group-hover:text-x-light"
