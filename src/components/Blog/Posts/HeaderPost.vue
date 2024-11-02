@@ -22,7 +22,7 @@
         <!-- Category Tag -->
         <div class="flex items-center space-x-1">
           <img
-            src="\src\assets\images\Home\Icon\Icon2.png"
+            src="\src\assets\images\Home\Icon\icon2.png"
             alt="Startup Icon"
             class="w-5 h-5"
           />
