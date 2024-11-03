@@ -35,7 +35,7 @@
               />
             </div>
             <h3 class="text-3xl font-semibold">
-              <a href="/category">Startup</a>
+              <router-link to="/category">Startup</router-link>
             </h3>
             <p
               class="text-base font-xinter text-x-mediumgrey group-hover:text-x-light"

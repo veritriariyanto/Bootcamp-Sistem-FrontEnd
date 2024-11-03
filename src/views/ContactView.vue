@@ -34,7 +34,7 @@
         </div>
       </div>
 
-      <form class="w-full max-w-lg">
+      <form action="#" class="w-full max-w-lg">
         <div class="mb-4">
           <input
             class="w-full p-3 bg-x-light border border-x-mediumgrey placeholder:text-x-black"

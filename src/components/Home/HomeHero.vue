@@ -30,7 +30,7 @@
         </p>
         <route-link
           to
-          href="/"
+          href="/posts"
           class="btn bg-x-blue rounded-none border-none px-12 py-4 text-x-light"
           >Read More &gt;</route-link
         >
