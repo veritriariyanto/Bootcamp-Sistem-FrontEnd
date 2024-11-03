@@ -28,10 +28,11 @@
           dolore eu <br />
           fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
         </p>
-        <a
-          href="#"
+        <route-link
+          to
+          href="/"
           class="btn bg-x-blue rounded-none border-none px-12 py-4 text-x-light"
-          >Read More &gt;</a
+          >Read More &gt;</route-link
         >
       </div>
     </div>
