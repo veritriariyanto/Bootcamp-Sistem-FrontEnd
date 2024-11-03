@@ -28,10 +28,10 @@
           dolore eu <br />
           fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
         </p>
-        <route-link
+        <router-link
           to="/posts"
           class="btn bg-x-blue rounded-none border-none px-12 py-4 text-x-light"
-          >Read More &gt;</route-link
+          >Read More &gt;</router-link
         >
       </div>
     </div>
