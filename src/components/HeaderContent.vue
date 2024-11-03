@@ -43,8 +43,10 @@
         </ul>
       </div>
       <div class="navbar-end font-sans">
-        <a class="py-3 px-8 btn rounded-badge bg-x-blue text-x-light"
-          >Contact Us</a
+        <router-link
+          to="/contact"
+          class="py-3 px-8 btn rounded-badge bg-x-blue text-x-light"
+          >Contact Us</router-link
         >
       </div>
     </div>
