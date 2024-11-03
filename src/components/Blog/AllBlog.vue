@@ -1,9 +1,8 @@
 <template>
   <div class="container mx-auto mt-10 font-xinter">
     <route-link
-      to
+      to="/posts"
       class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-x-black"
-      href="/posts"
       >All posts</route-link
     >
     <div class="border-t-2">
