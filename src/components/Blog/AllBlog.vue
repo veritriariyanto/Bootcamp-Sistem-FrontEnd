@@ -1,9 +1,9 @@
 <template>
   <div class="container mx-auto mt-10 font-xinter">
-    <route-link
+    <router-link
       to="/posts"
       class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-x-black"
-      >All posts</route-link
+      >All posts</router-link
     >
     <div class="border-t-2">
       <div class="grid gap-8 p-8 text-x-black mt-10">
