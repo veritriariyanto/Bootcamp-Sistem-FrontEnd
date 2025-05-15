@@ -30,7 +30,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftp
           port: ${{ secrets.FTP_PORT }}
-          local-dir: dist # penting: hanya upload hasil build
+          local-dir: dist/ # penting: hanya upload hasil build
           exclude: |
             **/.git*
             **/node_modules/*
