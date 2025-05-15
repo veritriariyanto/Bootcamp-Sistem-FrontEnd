@@ -1,21 +1,36 @@
 on:
   push:
     branches: [main]
-name: 🚀 Deploy website on push
+name: 🚀 Deploy Vue frontend
 jobs:
   web-deploy:
-    name: 🎉 Deploy
+    name: 🎉 Build and Deploy Vue
     runs-on: ubuntu-latest
-    steps:
-    - name: 🚚 Get latest code
-      uses: actions/checkout@v4
 
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-      with:
-        server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USER }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        protocol: ftp
-        port: ${{ secrets.FTP_PORT }}
-        exclude: git*
+    steps:
+      - name: 🚚 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 🧰 Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20' # sesuaikan dengan versi Node.js kamu
+
+      - name: 📦 Install dependencies
+        run: npm install
+
+      - name: 🛠️ Build Vue project
+        run: npm run build
+
+      - name: 📂 Upload dist folder via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftp
+          port: ${{ secrets.FTP_PORT }}
+          local-dir: dist # penting: hanya upload hasil build
+          exclude: |
+            **/.git*
+            **/node_modules/*
